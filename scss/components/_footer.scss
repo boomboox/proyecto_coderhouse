@@ -1,0 +1,21 @@
+/* Footer----------------------------- */
+
+.footer {
+    max-width: 1000px;
+    margin: 0 auto;
+
+    h3 {
+        font-size: 12px;
+        font-family: $main-font;
+        color: $main-font-color;
+    }
+
+    a {
+        font-family: $main-font;
+        color: $accent-color;
+    }
+
+    i {
+        color: $accent-color;
+    }
+}

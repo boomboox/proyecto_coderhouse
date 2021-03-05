@@ -1,0 +1,34 @@
+/* Header segment----------------------------- */
+div.bg-header {
+    background-image: url("../images/header-2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 780px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+div.header-content {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 765px;
+    max-width: 768px;
+    flex-direction: column;
+    margin: 0 auto;
+    padding-top: 70px;
+}
+
+div.header-content h1 h2 {
+    color: $main-color;
+}
+
+.headline {
+    font-family: $main-font;
+    color: $main-color;
+}
+
+.subheadline {
+    font-family: $main-font;
+    color: $main-color;
+}
