@@ -90,11 +90,19 @@ div.header-content h1 h2 {
   padding: 20px 0px 20px 0px;
 }
 
+.screen h2 {
+  font-weight: bolder;
+}
+
 /* Processor segment--------------------------- */
 .processor {
   max-width: 1000px;
   margin: 0 auto;
   padding: 20px 0px 20px 0px;
+}
+
+.processor h2 {
+  font-weight: bolder;
 }
 
 /* Design segment------------------------------- */
@@ -103,6 +111,10 @@ div.header-content h1 h2 {
   max-width: 1000px;
   margin: 0 auto;
   padding: 20px 0px 20px 0px;
+}
+
+.design h2 {
+  font-weight: bolder;
 }
 
 #carouselExampleIndicators {
@@ -117,11 +129,56 @@ div.header-content h1 h2 {
   padding: 20px 0px 20px 0px;
 }
 
+.graphics h2 {
+  font-weight: bolder;
+}
+
 /* Connectivity segment-------------------------- */
 .connectivity {
   max-width: 1000px;
   margin: 0 auto;
   padding: 20px 0px 20px 0px;
+}
+
+.connectivity h2 {
+  font-weight: bolder;
+}
+
+/* Pricing segment-------------------------- */
+.container {
+  max-width: 1000px;
+}
+
+.pricing-header {
+  max-width: 700px;
+}
+
+.card-header {
+  background-color: #222;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card-body {
+  background-color: #222;
+}
+
+.card-header h5 {
+  font-family: "Oswald", sans-serif;
+  color: white;
+}
+
+.card-body h1 {
+  font-family: "Oswald", sans-serif;
+  color: #4CAF50;
+}
+
+.card-body ul {
+  font-family: "Oswald", sans-serif;
+  color: white;
+}
+
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.125);
 }
 
 /* Footer----------------------------- */
