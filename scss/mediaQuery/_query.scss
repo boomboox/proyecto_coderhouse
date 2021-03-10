@@ -18,6 +18,18 @@
     .btn-container {
         display: none;
     }
+
+    .badges-imgs {
+        display: none;
+    }
+
+    div.header-content {
+        padding-top: 10px;
+    }
+
+    .headline {
+        font-size: 35pt;
+    }
 }
 
 /*Tablet-----------------------------------------------*/
@@ -28,6 +40,10 @@
     }
 
     .hamburguer-menu {
+        display: none;
+    }
+
+    .badges-imgs {
         display: none;
     }
 }

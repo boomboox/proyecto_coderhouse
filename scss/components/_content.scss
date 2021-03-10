@@ -4,7 +4,7 @@
     text-align: center;
     max-width: 1000px;
     margin: 0 auto;
-    padding: 20px 0px 20px 0px;
+    padding: 50px 0px 20px 0px;
 }
 
 .screen h2 {
@@ -21,6 +21,10 @@
 
 .processor h2 {
     font-weight: bolder;
+}
+
+.badges-imgs {
+    padding: 5px;
 }
 
 
@@ -66,6 +70,16 @@
     font-weight: bolder;
 }
 
+.connectivity ul {
+    font-family: $main-font;
+    color: $main-font-color;
+    list-style-type: none;
+    margin-left: -35px;
+}
+
+.connectivity i {
+    color: $accent-color;
+}
 
 /* Pricing segment-------------------------- */
 
@@ -103,4 +117,24 @@
 
 .card {
     border: 1px solid rgba(0,0,0,.125);
+}
+
+/* Form Pre-Sale segment-------------------------- */
+
+.row {
+    font-family: $main-font;
+    color: white;
+}
+
+.form-group{
+    font-family: $main-font;
+    color: white;
+}
+
+.form-control {
+    margin: 0px 0px 20px 0px;
+}
+
+.form button {
+    margin: 10px;
 }

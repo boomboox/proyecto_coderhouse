@@ -1,6 +1,7 @@
 /* Header segment----------------------------- */
 div.bg-header {
-    background-image: url("../images/header-2.jpg");
+    /*background-image: url("../images/header-2.jpg");*/
+    background-image: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,1) 22%, rgba(0,0,0,0) 44%, rgba(0,0,0,0) 100%);
     background-position: center;
     background-repeat: no-repeat;
     height: 780px;
@@ -12,23 +13,35 @@ div.header-content {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    height: 765px;
+    height: 705px;
     max-width: 768px;
     flex-direction: column;
     margin: 0 auto;
-    padding-top: 70px;
+    padding-top: 560px;
 }
 
 div.header-content h1 h2 {
     color: $main-color;
+    font-weight: bolder;
 }
 
 .headline {
     font-family: $main-font;
-    color: $main-color;
+    color: $main-font-color;
+    font-size: 50pt;
 }
 
 .subheadline {
     font-family: $main-font;
-    color: $main-color;
+    color: $main-font-color;
+    font-size: 12pt;
+    padding-bottom: 10px;
+}
+
+div.video-bg {
+    height: 780px;
+    width: 100%;
+    margin: 0 auto;
+    z-index: -2;
+    position: absolute;
 }
