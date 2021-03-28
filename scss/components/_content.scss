@@ -11,6 +11,31 @@
     font-weight: bolder;
 }
 
+.tooltips {
+    height: 10px;
+}
+
+.tooltip-a {
+    position: relative;
+    top: 210px;
+    z-index: 1;
+    left: -60px;
+}
+
+.tooltip-b {
+    position: relative;
+    top: 310px;
+    z-index: 1;
+    left: -60px;
+}
+
+.tooltip-c {
+    position: relative;
+    top: 450px;
+    z-index: 1;
+    left: -150px;
+}
+
 /* Processor segment--------------------------- */
 
 .processor {

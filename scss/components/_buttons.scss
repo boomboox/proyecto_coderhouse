@@ -9,7 +9,6 @@
     border-radius: 4px;
     font-family: $main-font;
     font-size: 15px;
-    width: 100px;
     margin: 0 auto;
     box-shadow: 0 0 0 0 rgba(49,132,253,.5);
     margin: 0px 6px 0px 0px;
@@ -36,3 +35,15 @@
 .btn-group-vertical:active:focus {
     width: 100%;
 }
+
+.btn-secondary {
+    background-color: $accent-color;
+    border-color: $accent-color;
+}
+
+.btn-secondary:hover {
+    color: #fff;
+    background-color: #3c873f;
+    border-color: #3c873f;
+}
+
